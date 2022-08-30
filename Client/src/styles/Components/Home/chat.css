@@ -1,0 +1,18 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 0.72;
+    background-color: transparent;
+}
+
+@media (max-width: 960px) {
+    .chat {
+        flex: 0.75;
+    }
+}
+
+@media (max-width: 800px) {
+    .chat {
+        flex: 0.8;
+    }
+}

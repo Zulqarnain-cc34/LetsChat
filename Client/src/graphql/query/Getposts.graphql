@@ -1,0 +1,13 @@
+query getposts($limit: Int!, $roomId: Int!) {
+    posts(limit: $limit, roomId: $roomId) {
+        posts {
+            ...RegularPosts
+        }
+        errors {
+            ...RegularError
+        }
+        success {
+            ...RegularSuccess
+        }
+    }
+}

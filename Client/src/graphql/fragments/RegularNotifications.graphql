@@ -1,0 +1,4 @@
+fragment RegularNotifications on Notifications {
+    message
+    notifier
+}

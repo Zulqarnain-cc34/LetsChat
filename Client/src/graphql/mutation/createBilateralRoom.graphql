@@ -1,0 +1,9 @@
+mutation createBilateralRoom($fid: Int!, $fname: String!) {
+    createBilateralRoom(fid: $fid, fname: $fname) {
+        updated
+        errors {
+            field
+            message
+        }
+    }
+}

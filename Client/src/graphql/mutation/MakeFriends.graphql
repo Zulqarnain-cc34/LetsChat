@@ -1,0 +1,11 @@
+mutation makefriends($userId: Int!) {
+    makeFriends(userId: $userId) {
+        updated
+        errors {
+            ...RegularError
+        }
+        success {
+            ...RegularSuccess
+        }
+    }
+}

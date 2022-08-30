@@ -1,0 +1,13 @@
+mutation createpost($message: String!, $roomId: Int!) {
+    createpost(roomId: $roomId, message: $message) {
+        post {
+            ...RegularPost
+        }
+        errors {
+            ...RegularError
+        }
+        success {
+            ...RegularSuccess
+        }
+    }
+}

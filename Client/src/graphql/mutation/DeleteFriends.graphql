@@ -1,0 +1,11 @@
+mutation deletefriends($userId: Int!) {
+    deleteFriends(userId: $userId) {
+        updated
+        errors {
+            ...RegularError
+        }
+        success {
+            ...RegularSuccess
+        }
+    }
+}

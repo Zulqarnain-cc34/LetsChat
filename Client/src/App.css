@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Candara", "Roboto", , "Whitney", "Lucida Sans Unicode" "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: "Candara", "Roboto", "Whitney", "Lucida Sans Unicode", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 12px;
+    /*font-size: 12px;*/
+}

@@ -1,0 +1,25 @@
+:root {
+    --navbar-color: #fff;
+    --navbar-bottom-color: #ccc;
+    --nav-size: 50px;
+    --button-color: #ffffff;
+    --dropdown-background: #f0f0f0;
+    --dropdown-border: rgb(197, 196, 196);
+    --dropdown-border-radius: 4px;
+    --dropdown-item-hover: #d6d6d6;
+    --dropdown-item-height: 55px;
+    --dropdown-item-icon-hover: #dd4242;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: var(--navbar-color);
+    border-bottom: 1px solid var(--navbar-bottom-color);
+    justify-content: space-between;
+    height: var(--nav-size);
+    padding: 0 1rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}

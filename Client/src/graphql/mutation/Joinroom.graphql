@@ -1,0 +1,9 @@
+mutation joinroom($roomid: Int!) {
+    joinRoom(roomId: $roomid) {
+        updated
+        errors {
+            field
+            message
+        }
+    }
+}

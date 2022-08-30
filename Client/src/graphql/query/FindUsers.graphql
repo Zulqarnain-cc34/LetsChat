@@ -1,0 +1,5 @@
+query FindUsers($name: String!) {
+    Findusers(name: $name) {
+        ...RegularUser
+    }
+}

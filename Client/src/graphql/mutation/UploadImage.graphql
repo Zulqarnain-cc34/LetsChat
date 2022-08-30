@@ -1,0 +1,11 @@
+mutation UploadImage($image: String!) {
+    profilePic(image: $image) {
+        updated
+        errors {
+            ...RegularError
+        }
+        success {
+            ...RegularSuccess
+        }
+    }
+}

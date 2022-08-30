@@ -1,0 +1,12 @@
+.nav-portion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-portion>h2 {
+    font-size: 1.3rem;
+    font-weight: 450;
+    line-height: 25px;
+}

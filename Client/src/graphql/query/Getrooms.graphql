@@ -1,0 +1,15 @@
+query getrooms($limit: Int!, $bilateral: Boolean!) {
+    getRoom(limit: $limit, bilateral: $bilateral) {
+        rooms {
+            room {
+                ...RegularRooms
+            }
+        }
+        errors {
+            ...RegularError
+        }
+        success {
+            ...RegularSuccess
+        }
+    }
+}

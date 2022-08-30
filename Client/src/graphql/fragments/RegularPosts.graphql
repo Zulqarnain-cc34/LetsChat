@@ -1,0 +1,10 @@
+fragment RegularPosts on Post {
+    id
+    createdAt
+    updatedAt
+    creatorid
+    message
+    creator {
+        ...RegularUser
+    }
+}

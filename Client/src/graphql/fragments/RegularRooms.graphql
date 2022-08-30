@@ -1,0 +1,6 @@
+fragment RegularRooms on Rooms {
+    id
+    adminId
+    Roomname
+    members
+}

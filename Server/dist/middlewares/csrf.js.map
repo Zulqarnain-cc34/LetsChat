@@ -1,0 +1,1 @@
+{"version":3,"file":"csrf.js","sourceRoot":"","sources":["../../src/middlewares/csrf.ts"],"names":[],"mappings":";;;;;;AAAA,kDAAyB;AAElB,MAAM,cAAc,GAAG,GAAG,EAAE,CAAC,eAAI,CAAC,EAAE,MAAM,EAAE,IAAI,EAAE,CAAC,CAAA;AAA7C,QAAA,cAAc,kBAA+B"}

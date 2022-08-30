@@ -1,0 +1,26 @@
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    height: var(--dropdown-item-height);
+    padding: 0.8rem;
+    border-radius: var(--dropdown-border-radius);
+    cursor: pointer;
+}
+
+.dropdown-item>span {
+    width: calc(var(--dropdown-item-height) * 0.7);
+    height: calc(var(--dropdown-item-height) * 0.7);
+    padding: 0.6rem;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+    margin-bottom: 2px;
+}
+
+.dropdown-item>p {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.item-right {
+    margin-left: auto;
+}

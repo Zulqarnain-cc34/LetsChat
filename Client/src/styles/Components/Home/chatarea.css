@@ -1,0 +1,103 @@
+.chatarea {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-top: 1px solid #d6d6d6;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.chattingarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y proximity;
+}
+
+.chatarea-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    padding: 10px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.chatarea-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #8a8a8a;
+    border-radius: 6px;
+}
+
+.chatarea-input>span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.2s all ease-in;
+    pointer-events: none;
+}
+
+.emoji-picker-hide {
+    opacity: 1 !important;
+    pointer-events: all !important;
+    transform: translate(-10%, -15%);
+}
+
+.chatarea-form>input {
+    width: 100%;
+    padding: 2px;
+    outline: none;
+    color: #2c2c2c;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.chatarea-form>input::placeholder {
+    color: #3d3d3d;
+}
+
+.chatarea-input>img {
+    width: 20px;
+    height: 20px;
+    filter: invert(0.5);
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.chatarea-form>img {
+    width: 18px;
+    height: 18px;
+    filter: invert(0.5);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.chattingarea>div>div:last-child {
+    scroll-snap-align: end;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--grey-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--grey-dark);
+    border: 3px solid var(--grey-dark);
+}

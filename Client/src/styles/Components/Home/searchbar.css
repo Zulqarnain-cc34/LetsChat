@@ -1,0 +1,36 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+
+.searchbar>input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100%;
+    background: transparent;
+    color: #6b6b6b;
+    text-decoration: none;
+}
+
+.searchbar>input::placeholder {
+    color: #858585;
+}
+
+.searchbar-icon {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.searchbar-icon-icon {
+    width: 15px !important;
+    height: 15px !important;
+    color: #cccccc !important;
+}
+
+.chatarea-form {}
