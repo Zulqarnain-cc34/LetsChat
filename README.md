@@ -1,7 +1,4 @@
 <div align="center"><p>
-    <a href="https://github.com/Zulqarnain-cc34/LetsChat/releases/latest">
-      <img alt="Latest release" src="https://img.shields.io/github/v/release/Zulqarnain-cc34/LetsChat?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&include_prerelease&sort=semver" />
-    </a>
     <a href="https://github.com/Zulqarnain-cc34/LetsChat/pulse">
       <img alt="Last commit" src="https://img.shields.io/github/last-commit/Zulqarnain-cc34/LetsChat?style=for-the-badge&logo=starship&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"/>
     </a>
@@ -19,7 +16,7 @@
 
 # LetsChat
 
-A chatting app with full backend and frontend.
+🚀 Discover the chat of tomorrow! 🔥 Our React and GraphQL-driven app delivers real-time magic ⚡️, connecting you with friends effortlessly. With WebSockets, messages arrive instantly 📩. Say goodbye to lag, hello to an extraordinary chatting experience! 🌟
 
 ![Messages](./assets/Messages.gif)
 
