@@ -21,6 +21,8 @@
 
 A chatting app with full backend and frontend.
 
+![Messages](./assets/Messages.gif)
+
 ### Features
 
 
